@@ -158,11 +158,16 @@ GET /api/dashboard/summary
 
 ```
 {
-  "amount": 5000,
-  "type": "expense",
-  "category": "Food",
-  "date": "2026-04-05T00:00:00.000Z",
-  "notes": "Dinner"
+    "amount": 5000,
+    "type": "expense",
+    "category": "Food",
+    "date": "2026-04-05T00:00:00.000Z",
+    "notes": "Dinner",
+    "createdBy": "69d209be1c0b41095baae2b2",
+    "_id": "69d29c542520abe0091144ff",
+    "createdAt": "2026-04-05T17:31:00.051Z",
+    "updatedAt": "2026-04-05T17:31:00.051Z",
+    "__v": 0
 }
 ```
 
@@ -174,9 +179,9 @@ GET /api/dashboard/summary
 
 ```
 {
-  "income": 20000,
-  "expense": 5000,
-  "net": 15000
+ "income": 25000,
+    "expense": 5000,
+    "net": 20000
 }
 ```
 
